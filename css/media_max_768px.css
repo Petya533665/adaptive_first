@@ -1,0 +1,66 @@
+@media screen and (max-width: 768px) {
+    /*----header----*/
+    .header{
+        margin: auto;
+        margin-bottom: 0;
+        height: 300px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    /*--logo--*/
+    .logo{
+        display: block;
+        margin: auto;
+/*        padding-left: 25px;*/
+        height: 147px;
+        width: 175px;
+/*        border: 1px solid white;*/
+    }   
+    .text_logo{
+    position: relative;
+    top: 120px;
+    left: -8px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    }
+    .name_logo {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 60px;
+    right: 58px;
+}
+    .logo>img {
+    position: relative;
+    left: 80px;
+    bottom: 57px;
+}
+    /*--contact--*/
+    .contact{
+        margin: auto;
+        width: 265px;
+/*        border: 1px solid yellow;*/
+    }
+    /*-----main-----*/
+    .main{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .article{
+        margin: auto;
+        margin-bottom: 30px;   
+    }
+    .article:hover{
+        transform: scale(1.2);
+        
+    }
+ }
